@@ -1,0 +1,277 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(.font/OpenSans.ttf);
+}
+
+body{
+    background-color: #fff;
+    margin: 0;
+}
+
+*{
+box-sizing: border-box;
+}
+/* HEADER----------------- */
+header{
+    /* background-color: red;  */
+    padding: 20px 70px;  
+    display:flex;
+
+    list-style: none;
+    font-family:OpenSans;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1;
+}
+header img.header__logo{
+    width: 10%;
+    height: 10%;
+    align-self: center;
+    cursor: pointer;
+}
+header .nav .list{
+    display:flex;
+    gap:100px;
+
+    list-style: none;
+    font-family:OpenSans;
+    color: #000; 
+    cursor: pointer;
+}
+header .btn__nav{
+    all:unset;
+    color: #F36B7F;
+    padding: 0px 20px;
+    border: solid 1px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+header .header__logo{
+    /* margin-right: 50px; */
+    margin-right:auto;
+}
+header nav{
+    margin-right: 0px;
+}
+/* HEROPAGE---------------------------------- */
+#heropage{
+    position:relative;
+    /* background-color: green; */
+    height: 85vh;
+}
+#heropage h1.h1__heropage{
+    color:#2B3F60;
+    font-family: OpenSans;
+    font-size: 100px;
+    font-weight: 900;
+    padding-top:200px;
+    padding-left: 150px;
+
+} 
+#heropage p.p__heropage{
+    font-size: 24px;
+    color: #132D54;
+    font-family: Montserrat;
+    font-weight: 300;
+    padding-left:150px;
+}
+#heropage button.btn__heropage{
+    all:unset;
+    background-color: #F36B7F;
+    padding: 15px 30px;
+    margin-left:150px;
+    margin-top:50px;
+    margin-bottom:300px; /* ???????????? */
+    border-radius: 30px;
+
+    list-style: none;
+    font-family:OpenSans;
+    color:#fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    cursor: pointer;
+}
+#heropage img.img__heropage{
+    position:absolute; 
+    right: 0px;
+    top:0px;
+    width: 50%;
+} 
+#heropage .flex__logos{
+    display:flex;
+    gap:30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    opacity:60%;
+
+    /* justify-content: flex-start; */
+}
+
+
+/* SECTION DOWNLOAD----------------------------- */
+#Download{
+    background-color: #F36B7F;
+    position:relative;
+}
+#Download h2.Download{
+    width:1000px;
+    margin:0px;
+    color:#fff;
+    font-family: OpenSans;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top:200px;
+    padding-left: 150px;
+}
+#Download p.Download{
+    width:1000px;
+    margin: 0px;
+    color:#fff;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top:100px;
+    padding-left: 150px;
+}
+#Download img.img__Googleplay{
+    margin:0px;
+    padding-left:130px;
+    padding-top:50px;
+    margin-bottom:100px;
+    cursor: pointer;
+}
+#Download img.img__Iphone11{
+    position: absolute;
+    width: 20%;
+    right:200px;
+    bottom:0px;
+}
+
+/* SECTION SERVICES----------------------------- */
+#services{
+    background-color: #F5F7FD;
+    /* background-color: aqua; */
+    margin-top: 100px;
+    height: 80vh;
+}
+
+#services div.ser__flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:56px;
+    flex-wrap: wrap;
+}
+#services h3.services ,
+#services h3.h3__OfficeCleaning , 
+#services h3.h3__HomeCleaning , 
+#services h3.h3__OutCleaning {
+    font-family: OpenSans;
+    display: block;
+    font-size: 55px;
+    color: #000;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    margin:0;
+    /* padding-top: 56px; */
+}
+
+#services p.p__OfficeCleaning , 
+#services p.p__HomeCleaning ,
+#services p.p__OutCleaning{
+ font-family: Montserrat;
+ font-size: 24px;
+ color: #132D54;
+ padding: 0px 12px;
+ text-align: center;
+
+}
+#services img.Printer ,
+#services img.Home,
+#services img.Outdoor{
+width: 40%;
+border-radius: 50%;
+z-index: 1;
+margin-bottom: -75px;
+}
+#services div.servicesText{
+    background-color: #fff;
+    padding-top:100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px 5px rgba(237, 240, 249, 0.7);
+}
+#services div.OfficeCleaning__flex , 
+#services div.HomeCleaning__flex ,
+#services div.OutCleaning__flex {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+}
+#customer{
+    background-color: #fff;
+    position: relative;
+}
+#customer h2.customer{
+    width:1000px;
+    margin:0px;
+    font-family: OpenSans;
+    font-size: 70px;
+    font-weight: 700;
+    /* padding-top:200px; */
+    padding-left: 150px;
+}
+#customer p.customer{
+     width:1000px;
+     margin: 0px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 300;
+     padding-top:100px;
+    padding-left: 150px; 
+ }
+ #customer button.btn__customer{
+    all:unset;
+    background-color: #F36B7F;
+    padding: 15px 30px;
+    margin-left:200px;
+    margin-top:50px;
+    margin-bottom:100px;
+    border-radius: 30px;
+
+    list-style: none;
+    font-family:OpenSans;
+    color:#fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    cursor: pointer;
+ }
+ #customer img.img__customer{
+    position:absolute; 
+    right: 150px;
+    bottom: 0px;
+    width: 50%;
+ }
+ footer{
+    background-color: #82B5A5;
+    border-top-left-radius: 200px;
+ }
+ div.footer__flex{
+    display:flex;
+    flex-direction: row;
+    padding:36px;
+    justify-content: space-around;
+
+    font-family:OpenSans;
+    font-size: 24px;
+    color: #fff;
+ }
+ img.footer__logo{
+    width: 10%;
+    height: 10%;
+    align-self: center;
+    cursor: pointer;
+ }
